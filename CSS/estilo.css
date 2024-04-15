@@ -6,7 +6,7 @@
     height: 40px;
     border-style: solid;
     border-width: 4px;
-    border-image: url(../imagens/Meuportifolio2.png) 1 round;
+    border-image: linear-gradient(to right, black -240px, #000000, rgb(97, 11, 210)) 1 round;
     border-radius: 5px;
     font-family: arial;
     font-size: 20px;
@@ -58,6 +58,16 @@ background-color: black;
     text-align: center;
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
+    animation-name: bvol;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+}
+@keyframes bvol{
+    0% {border-image: linear-gradient(to right, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    25% {border-image: linear-gradient(to bottom, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    50% {border-image: linear-gradient(to left, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    75% {border-image: linear-gradient(to top, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    100% {border-image: linear-gradient(to right, black -240px, #000000, rgb(97, 11, 210)) round 1;}
 }
 
 
