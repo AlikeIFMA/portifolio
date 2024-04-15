@@ -82,13 +82,22 @@ background-color: black;
     width: 150px;
     height: 40px;
     border-style: solid;
-    border-image: linear-gradient(to top, black -240px, #000000, rgb(97, 11, 210)) round 1;
     border-width: 4px;
     font-family: arial;
     font-size: 22px;
     text-align: center;
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
+    animation-name: bini;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+}
+@keyframes bini{
+    0% {border-image: linear-gradient(to right, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    25% {border-image: linear-gradient(to bottom, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    50% {border-image: linear-gradient(to left, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    75% {border-image: linear-gradient(to top, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    100% {border-image: linear-gradient(to right, black -240px, #000000, rgb(97, 11, 210)) round 1;}
 }
 .projetos{
     background-color: black;
@@ -118,6 +127,16 @@ background-color: black;
     text-align: center;
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
+    animation-name: bpro;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+}
+@keyframes bpro{
+    0% {border-image: linear-gradient(to left, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    25% {border-image: linear-gradient(to bottom, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    50% {border-image: linear-gradient(to right, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    75% {border-image: linear-gradient(to top, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    100% {border-image: linear-gradient(to left, black -240px, #000000, rgb(97, 11, 210)) round 1;}
 }
 .meus{
     background-color: black;
@@ -148,6 +167,16 @@ background-color: black;
     text-align: center;
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
+    animation-name: bmeu;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+}
+@keyframes bmeu{
+    0% {border-image: linear-gradient(to right, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    25% {border-image: linear-gradient(to bottom, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    50% {border-image: linear-gradient(to left, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    75% {border-image: linear-gradient(to top, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    100% {border-image: linear-gradient(to right, black -240px, #000000, rgb(97, 11, 210)) round 1;}
 }
 .contatos{
     background-color: black;
@@ -178,7 +207,16 @@ background-color: black;
     text-align: center;
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
-            
+    animation-name: bcon;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+}
+@keyframes bcon{
+    0% {border-image: linear-gradient(to left, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    25% {border-image: linear-gradient(to bottom, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    50% {border-image: linear-gradient(to right, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    75% {border-image: linear-gradient(to top, black -240px, #000000, rgb(97, 11, 210)) round 1;}
+    100% {border-image: linear-gradient(to left, black -240px, #000000, rgb(97, 11, 210)) round 1;}
 }
         
 
