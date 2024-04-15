@@ -32,6 +32,13 @@ body{
     margin-left: 200px;
     margin-top: -70px;
 }
+#div5{
+    display: inline;
+    height: 700px;
+}
+#gostos{
+    display: inline;
+}
 #header1{
     background-image: linear-gradient(to top, black -240px, #000000, rgb(97, 11, 210));
     padding: 55px;
