@@ -4,3 +4,7 @@ body{
 #div1{
     display: inline-block;
 }
+#header1{
+    background-image: linear-gradient(to top, black -240px, #000000, rgb(97, 11, 210));
+    padding: 55px;
+}
