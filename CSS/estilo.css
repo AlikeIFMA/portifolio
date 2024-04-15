@@ -1,3 +1,4 @@
+/* BOTÕES*/
 .button {
     background-color: black;
     color: white;
@@ -289,4 +290,49 @@ background-color: black;
     font-family: arial;
     font-size: 18px;
     
+}
+
+/* TRANSIÇÕES DAS ESPECIALIDADES*/
+.python{
+    display: inline;
+    vertical-align: middle;
+    width: 210px;
+    height: 190px;
+    transition-duration: 1s;
+}
+.python:hover{
+    display: inline;
+    align-items: center;
+    width: 250px;
+    height: 220px;
+    margin-left: -20px;
+    text-align: center;       
+}
+.CP{   
+    vertical-align: middle;
+    width: 185px;
+    height: 200px;
+    transition-duration: 1s;
+}
+.CP:hover{
+    width: 205px;
+    height: 230px;
+    margin-left: -10px;
+    text-align: center;
+    
+}
+.HTMLC{
+    display: inline;
+    
+    width: 230px;
+    height: 190px;
+    transition-duration: 1s;
+}
+.HTMLC:hover{
+    display: inline;
+   
+    width: 235px;
+    height: 200px;
+    text-align: center;
+    margin-left: -2px;
 }

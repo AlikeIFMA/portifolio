@@ -17,18 +17,28 @@ body{
 #div3{
     width: 100px;
     height: 80px;
-    margin-left: 150px;
+    margin-left: 180px;
     display: inline-block;
 }
 #div03{
     width: 100px;
     height: 80px;
-    margin-left: 30px;
+    
+    margin-left: 150px;
     display: inline-block;
+}
+#div4{
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: -70px;
 }
 #header1{
     background-image: linear-gradient(to top, black -240px, #000000, rgb(97, 11, 210));
     padding: 55px;
+}
+#IMGPRIN{
+    width: 70px; 
+    height: 70px; 
 }
 /* FORMATAÇÃO DE TEXTOS*/
 #TEXTO{
@@ -41,13 +51,23 @@ body{
     font-family: arial;
     font-size: 27px; 
     color: rgb(192, 158, 255);
-    text-align: center;
+    font-family: cursive;
+}
+#texto2{
+    font-family: arial;
+    font-size: 11px; 
+    color: rgb(192, 158, 255);
     font-family: cursive;
 }
 #qua{
     color: rgb(165, 69, 255);
-    text-align: center;
-    margin-left: 40px;
     font-size: 40px;
     font-family: cursive;
+    display: inline-block;
+    
+    
 }
+
+
+
+
