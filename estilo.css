@@ -315,44 +315,42 @@ left: 0;
 /* TRANSIÇÕES DAS ESPECIALIDADES*/
 .python{
     display: inline;
-    vertical-align: middle;
-    width: 210px;
-    height: 190px;
+    width: 12vw;
+    height: 12vw;
     transition-duration: 1s;
+    margin-bottom: -2vw;
 }
 .python:hover{
     display: inline;
-    align-items: center;
-    width: 250px;
-    height: 220px;
-    margin-left: -20px;
-    text-align: center;       
+    width: 12.2vw;
+    height: 12.4vw;
+    margin-left: -0.32vw;       
 }
 .CP{   
-    vertical-align: middle;
-    width: 185px;
-    height: 200px;
+    display: inline;
+    width: 12vw;
+    height: 13vw;
     transition-duration: 1s;
+    margin-top: 2vw;
 }
 .CP:hover{
-    width: 205px;
-    height: 230px;
-    margin-left: -10px;
-    text-align: center;
+    display: inline;
+    width: 12.5vw;
+    height: 13.5vw;
     
 }
 .HTMLC{
     display: inline;
-    
-    width: 230px;
-    height: 190px;
+    width: 12vw;
+    height: 13vw;
     transition-duration: 1s;
+    margin-left: 1.5vw;
+
 }
 .HTMLC:hover{
     display: inline;
-   
-    width: 235px;
-    height: 200px;
-    text-align: center;
-    margin-left: -2px;
+    width: 12.2vw;
+    height: 13.2vw;
+    
+    
 }

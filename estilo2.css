@@ -15,17 +15,16 @@ body{
     display: flex;
 }
 #div3{
-    width: 100px;
-    height: 80px;
-    margin-left: 180px;
-    display: flex;
+    width: 19vw;
+    height: 25vw;
+    margin-left: -3vw;
+    display: inline-block;
 }
 #div03{
-    width: 100px;
-    height: 80px;
-    
-    margin-left: 150px;
-    display: flex;
+    width: 19vw;
+    height: 25vw;
+    margin-left: 5vw;
+    display: inline-block;
 }
 #div4{
     display: flex;
@@ -82,9 +81,9 @@ body{
 }
 #qua{
     color: rgb(165, 69, 255);
-    font-size: 40px;
+    font-size: 2.5vw;
     font-family: cursive;
-    display: inline-block;
+    display: flex;
     
     
 }
