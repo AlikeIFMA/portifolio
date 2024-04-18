@@ -27,9 +27,7 @@ body{
     display: inline-block;
 }
 #div4{
-    display: flex;
-    margin-left: 200px;
-    margin-top: -70px;
+    display: inline-block;
 }
 #div5{
     display: flex;
@@ -43,8 +41,8 @@ body{
     padding: 55px;
 }
 #IMGPRIN{
-    width: 70px; 
-    height: 70px; 
+    width: 4.5vw; 
+    height: 4.5vw; 
 }
 #divbotoes{
     width: 95vw;
