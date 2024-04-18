@@ -46,7 +46,7 @@ left: 0;
 
 }
 .button:hover{
-background-color: black;
+    background-color: black;
     color: rgb(164, 86, 236);
     width: 150px;
     height: 40px;
@@ -72,33 +72,37 @@ background-color: black;
 
 
 .inicio{
+    vertical-align: middle;
+    display: flexbox;
     background-color: black;
     color: white;
-    width: 150px;
-    height: 40px;
+    width: 10%;
+    height: 23%;
     border-style: solid;
     border-width: 4px;
     border-image: linear-gradient(to right, black -240px, #000000, rgb(97, 11, 210)) round 1;
     border-radius: 5px;
     font-family: arial;
-    font-size: 20px;
+    font-size: 1.4vw;
     text-align: center;
     transition-duration: 0.5s;
             
 }
             
 .inicio:hover{
+    vertical-align: middle;
+    display: flexbox;
     background-color: black;
     color: rgb(164, 86, 236);
-    width: 150px;
-    height: 40px;
+    width: 10%;
+    height: 23%;
     border-style: solid;
     border-width: 4px;
     font-family: arial;
-    font-size: 22px;
+    font-size: 1.6vw;
     text-align: center;
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgb(56, 0, 109),0 17px 50px 0 rgba(0,0,0,0.19);
     animation-name: bini;
     animation-duration: 0.4s;
     animation-iteration-count: infinite;
@@ -111,33 +115,35 @@ background-color: black;
     100% {border-image: linear-gradient(to right, black -240px, #000000, rgb(97, 11, 210)) round 1;}
 }
 .projetos{
+    display: flexbox;
     background-color: black;
     color: white;
-    width: 150px;
-    height: 40px;
+    width: 10%;
+    height: 23%;
     border-style: solid;
     border-width: 4px;
     border-image: linear-gradient(to left, black -240px, #000000, rgb(97, 11, 210)) round 1;
     border-radius: 5px;
     font-family: arial;
-    font-size: 20px;
+    font-size: 1.4vw;
     text-align: center;
     transition-duration: 0.4s;
 }
             
 .projetos:hover{
+    display: flexbox;
     background-color: black;
     color: rgb(164, 86, 236);
-    width: 150px;
-    height: 40px;
+    width: 10%;
+    height: 23%;
     border-style: solid;
     border-image: linear-gradient(to top, black -240px, #000000, rgb(97, 11, 210)) 1 round;
     border-width: 4px;
     font-family: arial;
-    font-size: 22px;
+    font-size: 1.6vw;
     text-align: center;
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgb(56, 0, 109),0 17px 50px 0 rgba(0,0,0,0.19);
     animation-name: bpro;
     animation-duration: 0.4s;
     animation-iteration-count: infinite;
@@ -150,34 +156,36 @@ background-color: black;
     100% {border-image: linear-gradient(to left, black -240px, #000000, rgb(97, 11, 210)) round 1;}
 }
 .meus{
+    display: flexbox;
     background-color: black;
     color: white;
-    width: 150px;
-    height: 40px;
+    width: 11%;
+    height: 23%;
     border-style: solid;
     border-width: 4px;
     border-image: linear-gradient(to right, black -240px, #000000, rgb(97, 11, 210)) 1 round;
     border-radius: 4px;
     font-family: arial;
-    font-size: 20px;
+    font-size: 1.4vw;
     text-align: center;
     cursor: pointer;
     transition-duration: 0.4s;
 }
             
 .meus:hover{
+    display: flexbox;
     background-color: black;
     color: rgb(164, 86, 236);
-    width: 150px;
-    height: 40px;
+    width: 11%;
+    height: 23%;
     border-style: solid;
     border-image: linear-gradient(to top, black -240px, #000000, rgb(97, 11, 210)) 1 round;
     border-width: 4px;
     font-family: arial;
-    font-size: 22px;
+    font-size: 1.5vw;
     text-align: center;
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgb(56, 0, 109),0 17px 50px 0 rgba(0,0,0,0.19);
     animation-name: bmeu;
     animation-duration: 0.4s;
     animation-iteration-count: infinite;
@@ -190,34 +198,36 @@ background-color: black;
     100% {border-image: linear-gradient(to right, black -240px, #000000, rgb(97, 11, 210)) round 1;}
 }
 .contatos{
+    display: flexbox;
     background-color: black;
     color: white;
-    width: 150px;
-    height: 40px;
+    width: 11%;
+    height: 23%;
     border-style: solid;
     border-width: 4px;
     border-image: linear-gradient(to left, black -240px, #000000, rgb(97, 11, 210)) 1 round;
     border-radius: 4px;
     font-family: arial;
-    font-size: 20px;
+    font-size: 1.4vw;
     text-align: center;
     cursor: pointer;
     transition-duration: 0.4s;
 }
             
 .contatos:hover{
+    display: flexbox;
     background-color: black;
     color: rgb(164, 86, 236);
-    width: 150px;
-    height: 40px;
+    width: 11%;
+    height: 23%;
     border-style: solid;
     border-image: linear-gradient(to top, black -240px, #000000, rgb(97, 11, 210)) 1 round;
     border-width: 4px;
     font-family: arial;
-    font-size: 22px;
+    font-size: 1.6vw;
     text-align: center;
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgb(56, 0, 109),0 17px 50px 0 rgba(0,0,0,0.19);
     animation-name: bcon;
     animation-duration: 0.4s;
     animation-iteration-count: infinite;
@@ -258,7 +268,7 @@ background-color: black;
     font-size: 22px;
     text-align: center;
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgb(56, 0, 109),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .texto{
     background-color: black;
