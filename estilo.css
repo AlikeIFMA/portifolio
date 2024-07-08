@@ -315,16 +315,16 @@ left: 0;
 /* TRANSIÇÕES DAS ESPECIALIDADES*/
 .python{
     display: inline;
-    width: 12vw;
-    height: 12vw;
-    transition-duration: 1s;
-    margin-bottom: -2vw;
+    width: 230px;
+    height: 230px;
+    transition-duration: 0.5s;
 }
 .python:hover{
     display: inline;
-    width: 12.2vw;
-    height: 12.4vw;
-    margin-left: -0.32vw;       
+    width: 240px;
+    height: 240px;
+    margin-left: -5px;      
+    margin-bottom: -10px;      
 }
 .CP{   
     display: inline;
